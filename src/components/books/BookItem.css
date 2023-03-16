@@ -1,0 +1,32 @@
+h2,
+h3 {
+  text-align: center;
+}
+
+.book-item-container {
+  width: 350px;
+  height: 380px;
+  margin: 1rem;
+  border: 1px solid black;
+  box-shadow: 1px 1px 1px 1px;
+  display: flex;
+  padding: auto;
+  background-color: #d4dacd;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-bookItem {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(40, 77, 83);
+  color: rgb(40, 77, 83);
+  border-radius: 12px;
+  margin-right: 1rem;
+  font-weight: bold;
+  color: rgb(40, 77, 83);
+  margin-bottom: 0.5rem;
+}
