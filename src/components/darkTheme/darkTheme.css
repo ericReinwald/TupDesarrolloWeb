@@ -1,0 +1,21 @@
+/* Estilos para el modo normal */
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+a {
+  color: #000000;
+}
+
+/* Estilos para el modo oscuro */
+.dark-mode body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.dark-mode a {
+  color: #ffffff;
+}
+
+/* Agregue todas las reglas CSS necesarias para cambiar la paleta de colores de la aplicación en el modo oscuro */

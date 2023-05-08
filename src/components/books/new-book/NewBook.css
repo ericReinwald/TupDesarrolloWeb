@@ -1,0 +1,38 @@
+.new-book {
+  background-color: rgb (29, 117, 29);
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgb(53, 5, 15);
+}
+
+.new-book button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(201, 227, 235);
+  color: rgb(3, 73, 85);
+  border-radius: 12px;
+  margin-right: 1rem;
+}
+
+.new-book button:hover,
+.new-book button:active {
+  background-color: rgb(34, 212, 108);
+  border-color: rgb(55, 55, 165);
+}
+
+.new-book button.alternative {
+  color: rgb(6, 7, 6);
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.new-book button:hover,
+.new-book button:active {
+  background-color: white;
+}

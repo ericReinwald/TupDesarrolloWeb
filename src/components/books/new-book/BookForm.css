@@ -1,0 +1,57 @@
+.new-book-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.new-book-control label {
+  font-weight: center;
+  color: #ffff;
+  margin-bottom: 0.5rem;
+  display: block;
+  align-items: center;
+}
+.new-book-control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+}
+
+.new-book-actions {
+  text-align: right;
+}
+
+.new-book-inline-control {
+  text-align: left;
+  color: #b33131;
+}
+.new-book-inline-control label,
+.new-book-control label {
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  display: block;
+}
+.new-book-inline-control label {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.new-book-control select,
+.new-book-control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #cccccc;
+  width: 20rem;
+  max-width: 100%;
+}
+.button-cancel {
+  text-align: right;
+  color: rgb(185, 28, 28);
+}
