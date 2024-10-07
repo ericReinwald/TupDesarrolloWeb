@@ -153,6 +153,7 @@ const BookForm = ({ onBookDataSaved }) => {
   };
   const changeReviewHandler = (event) => {
     setReview(event.target.value);
+    setReadingProgress(100);
   };
 
   const changeComentarHandler = (event) => {

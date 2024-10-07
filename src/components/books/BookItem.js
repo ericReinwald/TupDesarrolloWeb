@@ -20,7 +20,7 @@ const Bookitem = ({
 
   const clickHandler = () => {
     console.log("click");
-    setNewTitle("Leido!");
+    setNewTitle("read");
     setUpdateReadingProgress("100");
     setNewPageCount("50");
   };
